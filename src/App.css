@@ -1,0 +1,56 @@
+body{
+    --cursor-color: yellow;
+}
+
+.child{
+    display: block;
+    transform: translate(0,100%);
+}
+.parent{
+    display: block;
+    overflow: hidden;
+}
+.RunHero-video{
+    clip-path: polygon(100% 0, 100% 0%, 100% 0%, 100% 0%);
+    /* clip-path:circle(12% at 50% 50%); */
+}
+.hero .content{
+    border-radius: 1rem;
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+}
+.afterHero .part2 video{
+    clip-path:circle(12% at 50% 50%);
+}
+.banner{
+    clip-path: polygon(30% 0, 63% 0, 63% 100%, 30% 100%);
+}
+
+
+/* today Special .card */
+.today-special .card.first{
+    clip-path: ellipse(23% 52% at 99% 50%);
+}
+.today-special .card.three{
+    clip-path: ellipse(38% 68% at 0% 50%);
+}
+.cafe-testimonials{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 78% 84%, 92% 100%, 53% 83%, 0 83%);
+
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+}
+
+/* footwear  */
+
+/* .Footwear-hero{
+    clip-path: circle(13% at 50% 50%);
+} */
+.showcase .img1{
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0%);
+}
+.showcase .img2{
+    /* clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%); */
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+}
+.products .up{
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
